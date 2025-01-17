@@ -7,7 +7,7 @@ const Navigation = () => {
 
   return (
     <div className="w-full fixed h-screen flex items-center justify-center">
-      <div className="flex items-center justify-between relative">
+      <div className="flex items-center justify-between relative animate-spin-slow">
         {BtnList.map((btn, index) => {
           const angleRad = (index * angleIncrement * Math.PI) / 180;
           const radius = "calc(20vw - 1rem)";
