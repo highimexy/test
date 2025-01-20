@@ -14,7 +14,7 @@ export default function Home() {
         className="-z-50 w-full h-full object-cover object-center"
       />
 
-      <div className="w-full h-screen text-white">
+      <div className="w-full h-screen text-grey">
         {/* navigation and 3d */}
           <Navigation />
           <RenderModel>
